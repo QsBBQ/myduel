@@ -1,0 +1,15 @@
+salary cap: 60000
+
+The csv has a list of players and there cost.
+
+My goal is to be able to visualize multiple player rosters.
+
+For example something with the data below.
+
+Available players    roster1,                   roster2, roster3
+player1 cost123       QB,rb,rb,wr,wr,wr,te,K,def
+
+
+Thinking about making a react app for this?
+
+Gulp, flux and redux?
