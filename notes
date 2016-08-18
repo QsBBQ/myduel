@@ -6,10 +6,38 @@ My goal is to be able to visualize multiple player rosters.
 
 For example something with the data below.
 
+Tabs week1/week2/week3
 Available players    roster1,                   roster2, roster3
 player1 cost123       QB,rb,rb,wr,wr,wr,te,K,def
 
 
+next steps
+backend to store data.
+
 Thinking about making a react app for this?
 
-Gulp, flux and redux?
+Gulp, webpack, flux and redux
+
+getting started
+npm init
+
+
+Actions
+  interactions with React Components
+  fetching data sync or async (api calls)
+
+Components
+  Dumb React Components which work similarly irrespective of parents
+
+containers
+  React Components which have access to state
+
+Reducers
+  Functions which
+    f(action,prev_state)=>next_state
+
+Middlewares
+  Functions which can perform instructions when actions are fired
+
+Store
+  Redux state is stored here
